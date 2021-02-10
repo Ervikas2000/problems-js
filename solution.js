@@ -9,6 +9,11 @@
 
 // console.log(a, b)
 
+
+
+
+
+//2
 //with mathemetical equation
 //var a = a+b
 //var b = a-b
@@ -16,7 +21,11 @@
 
 //console.log(a, b)
 
-//2
+
+
+
+
+//3
 //max num between two num
 //var a = 200
 //var b = 1000
@@ -37,7 +46,12 @@
 
 //console.log("maximum number is" , big)
 
-//3
+
+
+
+
+
+//4
 // maximum between three numbers
 
 // var a = 10000
@@ -67,7 +81,11 @@
 
 
 
-//4
+
+
+
+
+//5
 //number is negative, positive or zero
 
 // var a = 0
@@ -82,7 +100,12 @@
 // }
 
 
-//5
+
+
+
+
+
+//6
 //number is divisible by 5 and 11 or not
 //using conditional statement
 // var a = 55
@@ -99,7 +122,10 @@
 
 
 
-//6
+
+
+
+//7
 //number is even or odd
 //using conditional statement
 
@@ -111,7 +137,14 @@
 // }
 
 
-//7
+
+
+
+
+
+
+
+//8
 // year is leap year or not
 //using conditional statement
 
@@ -131,11 +164,18 @@
 // }
 
 
-//8
+
+
+
+
+
+
+
+//9
 //check whether it is vowel or consonant
 
 
-// ch = "i"
+// ch = "z"
 // if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ){
 // 	console.log("it is vowel")
 // }else{
@@ -145,27 +185,138 @@
 
 
 
-//9
+
+
+
+
+//10
 //input week number and print week day
 
-// var 1 = 'monday'
-// var 2 = 'tuesday'
-// var 3 = 'wednesday'
-// var 4 = 'thursday'
-// var 5 = 'friday'
-// var 6 = 'saturday'
-// var 7 = 'sunday'
-	
-// day = 1
-// if(day == "1" || day == "2" || day == "3" || day ==  "4" || day == "5" || day== "6" || day == "7"){
-// 	console.log(day)
+// var daynumber = 2
+// var days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+// if(daynumber>0 && daynumber<=7){
+// 	console.log(days[daynumber-1])
 // }else{
-// 	console.log(day)
+// 	console.log("invalid week day")
 // }
 
 
 
+
+
+
+
+//11
+// input month number and print number of days in that month
+
+
+// var monthnumber = 1
+// var days = ['31', '29', '31', '30', '31', '30', '31', '31','30', '31', '30', '31']
+// if(monthnumber>0 && monthnumber<=12){
+// 	console.log(days[monthnumber-1])
+// }else{
+// 	console.log("invalid month number")
+// }
+
+
+
+
+
 //12
+//count total number of notes in given amount
+
+// var amount = 584468
+
+// var notes = {
+//     2000:0,
+//     500:0,
+//     200:0,
+//     100:0,
+//     50:0,
+//     20:0,
+//     10:0,
+//     5:0,
+//     2:0,
+//     1:0
+// }
+
+// //check for 2000
+// if(amount >= 2000){
+//     notes[2000] = (amount-amount%2000)/2000
+//     amount = amount-notes[2000]*2000
+// }
+
+// //check for 500
+// if(amount>=500){
+//     notes[500] = (amount-amount%500)/500
+//     amount = amount-notes[500]*500
+// }
+
+
+// //check for 200
+// if(amount>=200){
+//     notes[200] = (amount-amount%200)/200
+//     amount = amount-notes[200]*200
+// }
+
+
+// //check for 100
+// if(amount>=100){
+//     notes[100] = (amount-amount%100)/100
+//     amount = amount-notes[100]*100
+// }
+
+
+// //check for 50
+// if(amount>=50){
+//     notes[50] = (amount-amount%50)/50
+//     amount = amount-notes[50]*50
+// }
+
+// //check for 20
+// if(amount>=20){
+//     notes[20] = (amount-amount%20)/20
+//     amount = amount-notes[20]*20
+// }
+
+// //check for 10
+// if(amount>=10){
+//     notes[10] = (amount-amount%10)/10
+//     amount = amount-notes[10]*10
+// }
+
+
+
+// //check for 5
+// if(amount>=5){
+//     notes[5] = (amount-amount%5)/5
+//     amount = amount-notes[5]*5
+// }
+
+
+// //check for 2
+// if(amount>=2){
+//     notes[2] = (amount-amount%2)/2
+//     amount = amount-notes[2]*2
+// }
+
+
+// //check for 1
+// if(amount>=1){
+//     notes[1] = (amount-amount%1)/1
+//     amount = amount-notes[1]*1
+// }
+
+// console.log(notes)
+
+
+
+
+
+
+
+
+//13
 //triangle is valid or not
 
 // var a = 60
@@ -183,12 +334,14 @@
 
 
 
-//13
+
+
+//14
 //input all sides of a triangle and check whether triangle is valid or not
 
 // var a = 12
-// var b = 11
-// var c = 13
+// var b = 30
+// var c = 22
 
 // var d = a + b
 // var e = a + c
@@ -211,47 +364,63 @@
 
 
 
-//14
-//triangle is equilateral, isosceles or scalene triangle
 
-// var a = 5
-// var b = 0
-// var c = 4
-
-// if (a==b && a==c && b==c){
-// 	console.log("triangle is equilateral")
-// }else{
-// 	if(a==b || a==c || b==c){
-// 		console.log("triangle is isosceles")
-// 	}else{
-// 		if(a!=b || a!=c || b!=c){
-// 			console.log("triangle is scalene")
-// 		}else{
-// 			console.log("not a triangle")
-// 		}
-// 	}
-// }
 
 //15
-//all roots of a quadratic equation
+//triangle is equilateral, isosceles or scalene triangle
 
-//  a = -4
-//  b = 2
-//  c = 2
+// var a = 0
+// var b = 5
+// var c = 5
 
-// d = (b*b)-(4*a*c)
-//  d= Math.sqrt(d)
 
-//  d = (-b)+(d)
+// if(a && b && c>0){
+// 	if(a==b && b==c){
+// 		console.log("triangle is equilateral")
+// 	}else{
+// 		if(a==b || b==c || a==c){
+// 			console.log("triangle is isosceles")
+// 		}else{
+// 			if(a!=b || b!=c || a!=c){
+// 				console.log("triangle is scalene")
+// 			}
+// 		}
+// 	}
+// }else{
+// 	console.log("invalid triangle sides")
+// }
 
-//  e = (-b)-(d)
 
-//  // d = d/(2*a)
-//  // e = e/(2*a)
-// console.log(d, e)
+
+
+
 
 
 //16
+//all roots of a quadratic equation
+
+
+// var a = 1
+// var b = 5
+// var c = 4
+
+// var d = b*b - 4*a*c
+
+// if(d >= 0){
+//     var alpha = (-b - Math.sqrt(d))/2*a
+//     var beta = (-b + Math.sqrt(d))/2*a
+
+//     console.log(alpha, beta)
+// }else{
+//     console.log('imaginary roots')
+// }
+
+
+
+
+
+
+//17
 // calculate profit or loss
 
 // var purchase = "70"
@@ -266,7 +435,11 @@
 // }
 
 
-//17
+
+
+
+
+//18
 // marks of five subjects
 
 // var phy = 90
@@ -278,7 +451,6 @@
 // var total = phy+che+math+bio+comp
 // var per = total/5
 
-// console.log(per)
 // if(per>=90){
 // 	console.log("grade:a")
 // }else{
@@ -305,12 +477,136 @@
 
 
 
-//18
-// basic salary of an employee
 
-var a = 10000
-var b = 20000
 
-var c = (a*20/100)
-var d = (a*80/100)
-console.log(c, d)
+
+
+
+//19
+//input basic salary of an employee and calculate its Gross salary
+
+// var basicsalary = 150000
+
+// if(basicsalary<=10000){
+// 	hr = (basicsalary*20)/100
+// 	da = (basicsalary*80)/100
+// }else if(basicsalary<=20000){
+// 	hr = (basicsalary*25)/100
+// 	da = (basicsalary*90)/100
+// }else {
+// 	hr = (basicsalary*30)/100
+// 	da = (basicsalary*95)/100
+// }
+
+// var grosssalary = basicsalary + hr + da
+
+// console.log(grosssalary)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//21
+//tax calculator
+
+// var income = 450000
+
+// if(income<=250000){
+// 	tax = (income*0)/100
+// 	console.log(tax)
+// }else if(income<=500000){
+// 	tax = (income*5)/100
+// 	console.log(tax)
+// }else if(income<=750000){
+// 	tax = (income*10)/100
+// 	console.log(tax)
+// }else if(income<=1000000){
+// 	tax = (income*15)/100
+// 	console.log(tax)
+// }else if(income<=1250000){
+// 	tax = (income*20)/100
+// 	console.log(tax)
+// }else if(income<=1500000){
+// 	tax = (income*25)/100
+// 	console.log(tax)
+// }else if(income>1500000){
+// 	tax = (income*30)/100
+// 	console.log(tax)
+// }
+
+
+
+
+
+
+
+
+//22
+//calculate year month days hour min 
+
+var second = 254794321
+
+var number ={
+	year:0,
+	month:0,
+	day:0,
+	hour:0,
+	min:0,
+	sec:0
+}
+
+//check for year
+if(second>=31536000){
+     number[31536000]= (second-second%31536000)/31536000
+    second = second-number[31536000]*31536000
+}
+
+
+
+//check for month
+if(second>=2592000){
+	number[2592000]= (second-second%2592000)/2592000
+    second = second-number[2592000]*2592000
+}
+
+
+
+//check for day
+if(second>=86400){
+	number[86400] = (second-second%86400)/86400
+    second = second-number[86400]*86400
+}
+
+
+
+//check for hour
+if(second>=3600){
+	number[3600] = (second-second%3600)/3600
+    second = second-number[3600]*3600
+}
+
+
+
+//check for min
+if(second>=60){
+	number[60] = (second-second%60)/60
+    second = second-number[60]*60
+}
+
+
+
+//check for sec
+if(second<=59){
+	number[59] =second
+}
+
+console.log( number)
