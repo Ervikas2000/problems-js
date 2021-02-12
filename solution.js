@@ -507,7 +507,35 @@
 
 
 
+//20
+//electric bill
 
+// var unit = 140
+// bill1 = 25
+// bill2 = 75
+// bill3 = 120
+
+// if(unit>=50){
+// 	if(unit>=150){
+// 		if(unit>=250){
+// 			bill4 = ((unit-250)*1.50)+bill1+bill2+bill3
+// 			bill4 = (bill4+(bill4*20)/100)
+// 			console.log(bill4)
+// 		}else{
+// 			bill3 = ((unit-150)*1.20)+bill1+bill2
+// 			bill3 = bill3+(bill3*20)/100
+// 			console.log(bill3)
+// 		}
+// 	}else{
+// 		bill2 = ((unit-50)*0.75)+bill1
+// 		bill2 = bill2+(bill2*20)/100
+// 		console.log(bill2)
+// 	}
+// }else{
+// 	bill = (unit*0.50)
+// 	bill = bill+(bill*20)/100
+// 	console.log(bill)
+// }
 
 
 
@@ -553,60 +581,27 @@
 //22
 //calculate year month days hour min 
 
-var second = 254794321
+// var givenseconds = 987654321
 
-var number ={
-	year:0,
-	month:0,
-	day:0,
-	hour:0,
-	min:0,
-	sec:0
-}
+// var secinoneyear = 12*30*24*60*60
+// var secinonemnth = 30*24*60*60
+// var secinoneday  = 24*60*60
+// var secinonehr   = 60*60
 
-//check for year
-if(second>=31536000){
-     number[31536000]= (second-second%31536000)/31536000
-    second = second-number[31536000]*31536000
-}
+// var numofyrs = (givenseconds-givenseconds%secinoneyear)/secinoneyear
+// var remainingsecs = givenseconds%secinoneyear 
 
+// var numofmnths = (remainingsecs-remainingsecs%secinonemnth)/secinonemnth
+// var remainingsecs = remainingsecs%secinonemnth
 
+// var numofdays = (remainingsecs-remainingsecs%secinoneday)/secinoneday
+// var remainingsecs = remainingsecs%secinoneday
 
-//check for month
-if(second>=2592000){
-	number[2592000]= (second-second%2592000)/2592000
-    second = second-number[2592000]*2592000
-}
+// var numofhrs = (remainingsecs-remainingsecs%secinonehr)/secinonehr
+// var remainingsecs = remainingsecs%secinonehr
+
+// var numofmin = (remainingsecs-remainingsecs%60)/60
+// var remainingsecs = remainingsecs%60
 
 
-
-//check for day
-if(second>=86400){
-	number[86400] = (second-second%86400)/86400
-    second = second-number[86400]*86400
-}
-
-
-
-//check for hour
-if(second>=3600){
-	number[3600] = (second-second%3600)/3600
-    second = second-number[3600]*3600
-}
-
-
-
-//check for min
-if(second>=60){
-	number[60] = (second-second%60)/60
-    second = second-number[60]*60
-}
-
-
-
-//check for sec
-if(second<=59){
-	number[59] =second
-}
-
-console.log( number)
+// console.log(numofyrs, numofmnths, numofdays, numofhrs, numofmin, remainingsecs)
