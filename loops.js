@@ -336,16 +336,117 @@
 
 
 
+//29
+//program to check whether a given number is an armstrong number or not
+
+// var num = 372
+// var a = 3
+// var b = 7
+// var c = 2
+// var sum = 0
+
+
+
+// 	a = a*a*a
+// 	b = b*b*b
+// 	c = c*c*c
+// 	sum = a+b+c
+
+
+// if(sum == num){
+// 	console.log("number is an armstrong number")
+// }else{
+// 	console.log("number is not armstrong number")
+// }
+
+
+
+
+
+
+
+//32
+// program to determine whether a given number is prime or not
+
+// function isPrime(number){
+//     var prime = "number is prime"
+//     for(var i = 2; i<=number/2; i++){
+//         if(number%i==0){
+//             prime = "number is not prime"
+//             break
+//         }
+//     }
+//     return prime
+// }
+
+// var number = 11
+// console.log(isPrime(number))
+
+
+
+
+
+
+
+
+
+
+//34
+//program to find the prime numbers within a range of numbers
+
+
+//  function isPrime(number){
+//     var prime = true
+//     for(var i = 2; i<=number/2; i++){
+//         if(number%i==0){
+//             prime = false
+//             break
+//         }
+//     }
+//     return prime
+// }
+
+
+
+// for(var i=2; i<=50; i++){
+//     if(isPrime(i)){
+//         console.log(i)
+//     }
+// } 
+
+
+
+
+
+
+
+
+
+//35
+// program to display the first n terms of Fibonacci series
+
+
+
 
 //37
 // program to display the number in reverse order
 
-// n = 5
+//for(var i=5; i>=1; i--){	
+//	console.log(i)
+//}
 
-// for(var i=1; i<=n; i++){
-// 	rev = 1+(n-i)
-// 	console.log(rev)
-// }
+
+
+
+
+
+
+
+//38
+//program to check whether a number is a palindrome or not
+
+
+
 
 
 
